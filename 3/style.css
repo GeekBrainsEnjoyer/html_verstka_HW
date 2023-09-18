@@ -41,7 +41,7 @@ img {
 }
 
 .header_menu {
-  justify-content:space-between;
+  justify-content: space-between;
   display: flex;
   align-items: center;
 }
@@ -73,6 +73,7 @@ img {
 .content {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .content__left-side {
@@ -130,4 +131,111 @@ img {
 .logos {
   display: flex;
   justify-content: space-between;
+  margin-top: 200px;
+  margin-bottom: 140px;
+}
+
+.top_carts_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.top_cart {
+  padding: 30px;
+  padding-top: 40px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.top_cart p {
+  color: #666;
+  font-family: "Gillroy-Medium";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.top_cart a {
+  color: #000;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.shadow_top_cart {
+  background: #fff;
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.bottom_carts_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: #fafafa;
+  align-items: center;
+  padding-bottom: 100px;
+  column-gap: 30px;
+}
+
+.bot_cart {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-inline: 30px;
+  padding-bottom: 50px;
+}
+
+.bot_cart p {
+  color: #aaa;
+  text-align: center;
+  font-family: "Gillroy-Medium";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  padding-top: 22px;
+  padding-bottom: 39px;
+}
+
+.shadow_bottom_cart {
+  box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.bottom_info {
+  grid-column: span 3;
+  background: #fafafa;
+  padding: 0px;
+}
+
+.bottom_info h1 {
+  font-family: "Gillroy-Bold";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bottom_info p {
+  color: #666;
+  font-family: "Gillroy-Medium";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  padding-top: 19px;
+  padding-bottom: 0px;
+  width: 682px;
+}
+
+.defected_img {
+  color: #fff;
 }
