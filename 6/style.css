@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "Lato";
+  src: url("./font/Lato/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Lato-bolt";
+  src: url("./font/Lato/Lato-ExtraBold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  background: #fff;
+  color: #222;
+  font-family: "Lato";
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #222;
+  height: 75px;
+}
+
+.menu {
+  padding-top: 18px;
+  padding-bottom: 19px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu_left_side {
+  display: flex;
+  justify-content: center;
+  gap: 41px;
+  align-items: flex-end;
+}
+
+.menu_right_side {
+  display: flex;
+  gap: 36px;
+}
+
+.header_button {
+  background: #222;
+  border: none;
+  cursor: pointer;
+}
+
+.preview_back {
+  background: #f1e4e6;
+}
+
+.preview {
+  display: flex;
+}
+
+.preview_right_side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_side_text {
+  max-width: 405px;
+  max-height: 93px;
+  border-left: 12px solid #f16d7f;
+  padding-left: 16px;
+}
+
+.right_side_text h1 {
+  font-family: "Lato-bolt";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.right_side_text p {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.bottom_text {
+  display: flex;
+}
+
+.fashion {
+  color: #f16d7f;
+}
+
+.categories{
+    padding-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 90px;
+}
+
+.categories_img{
+    
+}
