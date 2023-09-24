@@ -87,7 +87,7 @@ img {
 }
 
 .right_side_text {
-  max-width: 405px;
+  width: 405px;
   max-height: 93px;
   border-left: 12px solid #f16d7f;
   padding-left: 16px;
@@ -215,6 +215,8 @@ img {
   flex-wrap: wrap;
   gap: 30px;
   padding-bottom: 40px;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
@@ -276,4 +278,37 @@ img {
   background: none;
   border: 1px solid #f26376;
   cursor: pointer;
+}
+
+@media (max-width: 1024px) and (min-width: 768px){
+  .header{
+    
+  }
+  .container{
+    max-width: 736px;
+  }
+
+  .main_container{
+    max-width: 770px;
+  }
+
+  .categories{
+    gap: 19px;
+  }
+
+  .category_image{
+    max-width: 232px;
+    max-height: 168px;
+    background-size: 100% auto;
+  }
+
+  .accesories_category{
+    background-size: 100% auto;
+    max-width: 735px;
+    max-height: 116px;
+  }
+
+  .card_list{
+    gap: 16px;
+  }
 }
