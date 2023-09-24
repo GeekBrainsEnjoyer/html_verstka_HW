@@ -1,0 +1,314 @@
+@font-face {
+  font-family: "Lato";
+  src: url("./font/Lato/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: "Lato_semibolt";
+  src: url("./font/Lato/Lato-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Lato-bolt";
+  src: url("./font/Lato/Lato-ExtraBold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  background: #fff;
+  color: #222;
+  font-family: "Lato";
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.main_container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #222;
+  height: 75px;
+}
+
+.menu {
+  padding-top: 18px;
+  padding-bottom: 19px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu_left_side {
+  display: flex;
+  justify-content: center;
+  gap: 41px;
+  align-items: flex-end;
+}
+
+.menu_right_side {
+  display: flex;
+  gap: 36px;
+}
+
+.header_button {
+  background: #222;
+  border: none;
+  cursor: pointer;
+}
+
+.preview_back {
+  background: #f1e4e6;
+}
+
+.preview {
+  display: flex;
+}
+
+.preview_right_side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_side_text {
+  width: 405px;
+  max-height: 93px;
+  border-left: 12px solid #f16d7f;
+  padding-left: 16px;
+}
+
+.right_side_text h1 {
+  font-family: "Lato-bolt";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.right_side_text p {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.bottom_text {
+  display: flex;
+}
+
+.fashion {
+  color: #f16d7f;
+}
+
+.categories {
+  padding-top: 65px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 90px;
+}
+
+.woman_category {
+  background-image: url("./img/woman_category.png");
+  width: 360px;
+  height: 260px;
+}
+
+.image_background {
+  background-color: rgba(33, 22, 22, 0.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image_text h2 {
+  color: #f16d7f;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.image_text p {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.man_category {
+  background-image: url("./img/man_category.png");
+  width: 360px;
+  height: 260px;
+}
+
+.kids_category {
+  background-image: url("./img/kid_catregory.png");
+  width: 360px;
+  height: 260px;
+}
+
+.accesories_category {
+  background-image: url("./img/accesories_category.png");
+  width: 1140px;
+  height: 180px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.items_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding-bottom: 48px;
+}
+
+.items_text h2 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.items_text p {
+  color: #9f9f9f;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card_text {
+  display: flex;
+  width: 360px;
+  padding: 24px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  background-color: #f8f8f8;
+}
+
+.card_text h3 {
+  font-family: "Lato_semibolt";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card_text p {
+  color: #9f9f9f;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.card_text h2 {
+  color: #f16d7f;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.buttom_in_bottom_of_page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+.buttom_in_bottom {
+  width: 212px;
+  height: 48px;
+  color: #f26376;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: none;
+  border: 1px solid #f26376;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) and (min-width: 768px){
+  .header{
+    
+  }
+  .container{
+    max-width: 736px;
+  }
+
+  .main_container{
+    max-width: 770px;
+  }
+
+  .categories{
+    gap: 19px;
+  }
+
+  .category_image{
+    max-width: 232px;
+    max-height: 168px;
+    background-size: 100% auto;
+  }
+
+  .accesories_category{
+    background-size: 100% auto;
+    max-width: 735px;
+    max-height: 116px;
+  }
+
+  .card_list{
+    gap: 16px;
+  }
+}
