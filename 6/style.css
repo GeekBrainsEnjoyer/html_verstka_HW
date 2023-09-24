@@ -124,12 +124,6 @@ img {
   padding-bottom: 90px;
 }
 
-.woman_category {
-  background-image: url("./img/woman_category.png");
-  width: 360px;
-  height: 260px;
-}
-
 .image_background {
   background-color: rgba(33, 22, 22, 0.7);
   width: 100%;
@@ -162,16 +156,22 @@ img {
   line-height: normal;
 }
 
-.man_category {
-  background-image: url("./img/man_category.png");
+.category_image {
   width: 360px;
   height: 260px;
+  background-size: 100% auto;
+}
+
+.woman_category {
+  background-image: url("./img/woman_category.png");
+}
+
+.man_category {
+  background-image: url("./img/man_category.png");
 }
 
 .kids_category {
   background-image: url("./img/kid_catregory.png");
-  width: 360px;
-  height: 260px;
 }
 
 .accesories_category {
@@ -280,35 +280,81 @@ img {
   cursor: pointer;
 }
 
-@media (max-width: 1024px) and (min-width: 768px){
-  .header{
-    
-  }
-  .container{
+@media (max-width: 1024px) and (min-width: 768px) {
+  .container {
     max-width: 736px;
   }
 
-  .main_container{
+  .main_container {
     max-width: 770px;
   }
 
-  .categories{
+  .categories {
     gap: 19px;
   }
 
-  .category_image{
+  .category_image {
     max-width: 232px;
     max-height: 168px;
-    background-size: 100% auto;
   }
 
-  .accesories_category{
-    background-size: 100% auto;
+  .accesories_category {
     max-width: 735px;
     max-height: 116px;
   }
 
-  .card_list{
+  .card_list {
     gap: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 350px;
+  }
+
+  .main_container {
+    max-width: 375px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .preview{
+    justify-content: center;
+  }
+
+  .preview_right_side {
+    height: 363px;
+    max-width: 375px;
+    justify-content: center;
+  }
+
+  .right_side_text {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 263px;
+    max-height: 66px;
+  }
+
+  .right_side_text h1 {
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+
+  .right_side_text p {
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .accesories_category {
+    width: 350px;
+    height: 111px;
   }
 }
