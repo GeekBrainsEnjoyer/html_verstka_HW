@@ -306,6 +306,25 @@ img {
   .card_list {
     gap: 16px;
   }
+
+  .right_side_text {
+    max-width: 301px;
+    max-height: 92px;
+  }
+
+  .right_side_text h1 {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+
+  .right_side_text p {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
 }
 
 @media (max-width: 768px) {
@@ -321,7 +340,7 @@ img {
     display: none;
   }
 
-  .preview{
+  .preview {
     justify-content: center;
   }
 
@@ -334,7 +353,6 @@ img {
   .right_side_text {
     display: flex;
     flex-direction: column;
-
     max-width: 263px;
     max-height: 66px;
   }
@@ -353,8 +371,15 @@ img {
     line-height: normal;
   }
 
+  .category_image {
+    width: 343px;
+    height: 248px;
+  }
+
   .accesories_category {
     width: 350px;
     height: 111px;
+    background-size: cover;
+    background-position: center;
   }
 }
