@@ -629,7 +629,124 @@ img {
     justify-content: end;
   }
 
-  .footer_socil{
+  .footer_socil {
     padding-bottom: 40px;
   }
+
+  .footer_text {
+    font-size: 16px;
+  }
+}
+
+.img_card_hover {
+  display: none;
+}
+
+.img_button {
+  background-color: rgba(58, 56, 56, 0.86);
+  width: 360px;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_bay_button {
+  width: 139px;
+  height: 44px;
+  color: #ffffff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: none;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card_bay_button img {
+  width: 26.005px;
+  height: 23.974px;
+}
+
+.card:hover .img_card_hover {
+  display: flex;
+}
+
+.card:hover .img_card {
+  display: none;
+}
+
+.card:first-child {
+  background-image: url("./img/item1.png");
+}
+.card:nth-child(2) {
+  background-image: url("./img/item2.png");
+}
+.card:nth-child(3) {
+  background-image: url("./img/item3.png");
+}
+.card:nth-child(4) {
+  background-image: url("./img/item4.png");
+}
+.card:nth-child(5) {
+  background-image: url("./img/item5.png");
+}
+.card:nth-child(6) {
+  background-image: url("./img/item6.png");
+}
+
+.buttom_in_bottom:hover {
+  color: #fff;
+  background-color: #f16d7f;
+}
+
+.social_box:hover svg {
+  fill: #ffffff;
+}
+
+.social_box:hover {
+  background-color: #f16d7f;
+}
+
+.pink_circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 19px;
+  height: 19px;
+  background-color: #f16d7f;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menu_right_side {
+  position: relative;
+}
+
+.menu_right_side::after {
+  content: "5";
+  width: 19px;
+  height: 19px;
+  background-color: #f16d7f;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: -7px;
+  right: -8px;
 }
