@@ -750,3 +750,59 @@ img {
   top: -7px;
   right: -8px;
 }
+
+.active_menu {
+  background: #fff;
+  width: 232px;
+  height: 634px;
+  margin-left: auto;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  box-sizing: border-box;
+  position: relative;
+  max-height: inherit;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.active_menu h2 {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 33px;
+  padding-bottom: 24px;
+  padding-top: 32px;
+}
+
+.active_menu h3 {
+  color: #f16d7f;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 32px;
+  padding-bottom: 12px;
+  
+}
+
+.active_menu p {
+  color: #6f6e6e;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menu_categ{
+  display: flex;
+  gap: 11px;
+  flex-direction: column;
+  padding-left: 53.5px;
+  padding-bottom: 20px;
+}
+
+.hidden_menu{
+  display: none;
+}
